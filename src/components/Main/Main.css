@@ -1,0 +1,135 @@
+.text-main {
+    width: 60%;
+    min-width: 340px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.text-main p {
+    font-style: italic;
+    opacity: .8;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: justify;
+}
+
+body {
+    background-image: linear-gradient(to right top, #045c3d, #026145, #00654c, #006a54, #006e5c);
+}
+
+div.imagem-main {
+    width: 40%;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text-main h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.text-main span {
+    color: #0af4a2;
+}
+
+.img-main {
+    width: 100%;
+}
+
+.container button {
+    background-color: #0af4a2;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px 20px 0px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.5s;
+    max-width: 30%;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 0 40px 40px #0af4a2 inset, 0 0 0 0 #0af4a2;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    border-color: #0af4a2;
+}
+
+.container button:hover {
+    background-color: transparent;
+    border: 1px solid #0af4a2;
+    color: #fff;
+    box-shadow: 0 0 10px 0 #0af4a2 inset, 0 0 10px 4px #0af4a2;
+}
+
+@media (max-width: 767.98px) { 
+    .text-main h1{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .text-main {
+        min-width: 300px !important;
+    }
+
+    .text-main p {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .container {
+        margin-top: 60px;
+        height: 50vh;
+    }
+
+    body {
+        background-size: 700px;
+    }
+
+    .img-main {
+        margin-top: 40px !important;
+        min-width: 300px;
+    }
+
+    .container button {
+        background-color: aqua;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+        transition: 0.5s;
+        max-width: 100%;
+    }
+ }
+
+ @media (max-width: 991.98px) { 
+    .text-main {
+        min-width: 600px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img-main {
+        margin-top: 0px;
+        width: 500px;
+    }
+
+    .container {
+        margin-bottom: 230px;
+    }
+  }

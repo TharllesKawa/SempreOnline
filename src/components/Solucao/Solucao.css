@@ -1,0 +1,110 @@
+.solucao-container {
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right top, #045c3d, #026145, #00654c, #006a54, #006e5c);
+}
+
+.solucao-container img {
+    width: 40%;
+    margin-right: 80px;
+}
+
+.solucao-container h1 {
+    color: #fff;
+}
+
+.solucao-container span {
+    color: #0af4a2;
+}
+
+.solucao-cab-1{
+    margin-top: 40px;
+    border-bottom: 4px solid #fff;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.solucao-cab-1 p {
+    opacity: .7;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.solucao-cab p {
+    opacity: .7;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.solucao-cab{
+    color: #fff;
+    border-bottom: 4px solid #fff;
+    margin-bottom: 20px;
+}
+
+.logo-solucao {
+    margin-top: 40px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #397560;
+}
+
+.logo-solucao h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.logo-solucao button {
+    background-color: #0af4a2;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px 20px 0px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.5s;
+    max-width: 30%;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 0 40px 40px #0af4a2 inset, 0 0 0 0 #0af4a2;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    border-color: #0af4a2;
+    width: 500px;
+}
+
+.logo-solucao button:hover {
+    background-color: transparent;
+    border: 1px solid #0af4a2;
+    color: #fff;
+    box-shadow: 0 0 10px 0 #0af4a2 inset, 0 0 10px 4px #0af4a2;
+}
+
+.button-solucao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991.98px) {
+    .solucao-container img {
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .logo-solucao h1{
+        font-size: 1rem;
+        text-align: center;
+        width: 70%;
+    }
+}

@@ -1,0 +1,32 @@
+.cliente-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    padding-top: 70px;
+    background-color: black;
+    background-image: url(../../assets/background.png);
+}
+
+.cliente-container h1 {
+    text-align: center !important;
+    color: #fff;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.cliente-container span {
+    color: #0af4a2;
+}
+
+@media (max-width: 991.98px) {
+    .cliente-container h1 {
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .cliente-container {
+        background-size: 400px;
+    }
+}
